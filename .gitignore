@@ -1,3 +1,8 @@
+*
+!**/
+!*.*
+
+*.out
 TYPESCRIPT_TEST_FILE
 TESTFILE_*
 node/node_modules

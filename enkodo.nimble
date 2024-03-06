@@ -13,9 +13,7 @@ requires "nim >= 1.0.00"
 
 requires "flatty == 0.3.4"
 requires "https://github.com/bung87/monocypher.nim"
-
-# task install, "Install the package":
-#   exec "nimble install"
+requires "sysrandom"
 
 task buildjs, "Build the package":
   exec "nim js --out:typescript/serialize.js -r src/enkodo/serialize.nim"
