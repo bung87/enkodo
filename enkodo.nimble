@@ -12,7 +12,7 @@ srcDir        = "src"
 requires "nim >= 1.0.00"
 
 requires "flatty == 0.3.4"
-requires "https://github.com/bung87/monocypher.nim"
+requires "https://github.com/bung87/monocypher"
 requires "sysrandom"
 
 task buildjs, "Build the package":
